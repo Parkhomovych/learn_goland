@@ -1,12 +1,12 @@
 package main
 
-import (
-	"demo/app/learn"
-)
+import "demo/app/learn"
 
 func main() {
 	// learn.HelloWorld()
-	// learn.TypeData()
+	// learn.DataTypes()
 	// learn.MainFunc()
-	learn.MainCalculateIMT()
+	// learn.MainCalculateIMT()
+	// learn.BooleanConversion()
+	learn.LogicalOperators()
 }
