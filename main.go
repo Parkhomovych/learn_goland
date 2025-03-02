@@ -8,5 +8,5 @@ func main() {
 	// learn.MainFunc()
 	// learn.MainCalculateIMT()
 	// learn.BooleanConversion()
-	learn.LogicalOperators()
+	// learn.LogicalOperators()
 }

@@ -63,7 +63,9 @@ func getUserInput() (float64, float64) {
 
 	fmt.Print("Enter your weight in kilograms (example: 80):")
 	fmt.Scan(&weight)
-
+	if height <= 0 || weight <= 0 {
+		height, weight = 180, 80
+	}
 	return height, weight
 }
 
