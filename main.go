@@ -6,7 +6,8 @@ func main() {
 	// learn.HelloWorld()
 	// learn.DataTypes()
 	// learn.MainFunc()
-	learn.MainCalculateIMT()
+	// learn.MainCalculateIMT()
 	// learn.BooleanConversion()
 	// learn.LogicalOperators()
+	learn.Structure()
 }
