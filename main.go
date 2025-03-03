@@ -1,14 +1,37 @@
+// main.go - це головний файл програми на Go
+// Пакет main є особливим - він визначає виконуваний файл
 package main
 
+// import - підключення необхідних пакетів
+// demo/app/learn - це локальний пакет з нашими навчальними прикладами
 import "demo/app/learn"
 
+// func main() - це точка входу в програму
+// Програма починає виконання саме з цієї функції
 func main() {
-	// learn.HelloWorld()
-	// learn.DataTypes()
-	// learn.MainFunc()
-	// learn.MainCalculateIMT()
-	// learn.BooleanConversion()
-	// learn.LogicalOperators()
-	// learn.Structure()
-	learn.Slice()
+	// Нижче наведені виклики різних навчальних функцій
+	// Закоментовані рядки показують історію навчання
+
+	// Базові концепції
+	// learn.HelloWorld()    // Виведення "Hello, World!"
+	// learn.DataTypes()     // Робота з типами даних
+	// learn.MainFunc()      // Основи функцій
+
+	// Практичні приклади
+	// learn.MainCalculateIMT()    // Розрахунок індексу маси тіла
+
+	// Робота з логікою
+	// learn.BooleanConversion()   // Перетворення булевих значень
+	// learn.LogicalOperators()    // Логічні оператори
+
+	// Складні типи даних
+	// learn.Structure()           // Робота зі структурами
+
+	// Поточний приклад
+	learn.Slice() // Робота зі зрізами (slice)
+
+	// Для запуску нового прикладу:
+	// 1. Розкоментуйте потрібну функцію
+	// 2. Закоментуйте інші
+	// 3. Запустіть програму: go run main.go
 }
