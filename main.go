@@ -9,5 +9,6 @@ func main() {
 	// learn.MainCalculateIMT()
 	// learn.BooleanConversion()
 	// learn.LogicalOperators()
-	learn.Structure()
+	// learn.Structure()
+	learn.Slice()
 }
